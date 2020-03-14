@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(130deg,
+      rgba(162, 90, 49, 0.7),
+      rgba(116, 123, 133, 0.7)),
+    url("./../img/bg.jpg");
+  background-position: center;
+  background-size: cover;
+  font-family: cursive;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 100px;
+}
+
+h1 {
+  color: white;
+  font-size: 75px;
+  text-transform: capitalize;
+}
+
+h2 {
+  font-size: 30px;
+  text-transform: capitalize;
+  margin-left: 20px;
+}
+
+.type-writing {
+  color: black;
+}
+
+.cursor {
+  opacity: 0;
+  transition: 350ms;
+}
+
+.opacity {
+  opacity: 1;
+}
